@@ -71,6 +71,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modulos\mod4D.vb" />
+    <Compile Include="Modulos\modImgs.vb" />
+    <Compile Include="Modulos\modMssql.vb" />
+    <Compile Include="Modulos\modSalir.vb" />
+    <Compile Include="Modulos\Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -105,6 +110,96 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ai.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbSync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonActi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonAdmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonAlma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonBanc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonClie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonCont.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonProv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preDep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
