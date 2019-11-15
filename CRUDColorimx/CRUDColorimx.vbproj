@@ -71,6 +71,63 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Botones\clsBtn1.vb" />
+    <Compile Include="Botones\clsBtn2.vb" />
+    <Compile Include="Botones\clsBtn3.vb" />
+    <Compile Include="Botones\clsBtn4.vb" />
+    <Compile Include="Botones\clsBtn5.vb" />
+    <Compile Include="Botones\clsBtn7.vb" />
+    <Compile Include="Clases\Acceso.vb" />
+    <Compile Include="Clases\clsMenus.vb" />
+    <Compile Include="Clases\clsPnlFrm.vb" />
+    <Compile Include="Contabilidad\Presupuesto\clsExpPre.vb" />
+    <Compile Include="Contabilidad\Presupuesto\clsExpPreAplDet.vb" />
+    <Compile Include="Contabilidad\Presupuesto\clsExpPreApli.vb" />
+    <Compile Include="Contabilidad\Presupuesto\frmPreApli.designer.vb">
+      <DependentUpon>frmPreApli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreApli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreExp.designer.vb">
+      <DependentUpon>frmPreExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreRep.Designer.vb">
+      <DependentUpon>frmPreRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreVer.designer.vb">
+      <DependentUpon>frmPreVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frmPreVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frnPreApliVer.designer.vb">
+      <DependentUpon>frnPreApliVer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\frnPreApliVer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contabilidad\Presupuesto\modExpPre.vb" />
+    <Compile Include="Contabilidad\Presupuesto\modQryPresupuesto.vb" />
+    <Compile Include="Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmMenu.designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\mCon.vb" />
     <Compile Include="Modulos\mod4D.vb" />
     <Compile Include="Modulos\modImgs.vb" />
     <Compile Include="Modulos\modMssql.vb" />
@@ -91,13 +148,42 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SubMenu\Contabilidad\subMCue.vb" />
+    <Compile Include="SubMenu\Contabilidad\subMPre.vb" />
+    <Compile Include="SubMenu\frmSubMenu.designer.vb">
+      <DependentUpon>frmSubMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenu\frmSubMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Contabilidad\Presupuesto\frmPreApli.resx">
+      <DependentUpon>frmPreApli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Presupuesto\frmPreExp.resx">
+      <DependentUpon>frmPreExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Presupuesto\frmPreVer.resx">
+      <DependentUpon>frmPreVer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contabilidad\Presupuesto\frnPreApliVer.resx">
+      <DependentUpon>frnPreApliVer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenu\frmSubMenu.resx">
+      <DependentUpon>frmSubMenu.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +287,7 @@
   <ItemGroup>
     <None Include="Resources\view.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
