@@ -4,7 +4,7 @@ Public Class frmMenu
 
     Sub menus()
 
-        Me.btnSalir.Visible = False
+        'Me.btnSalir.Visible = False
         '********************************************************************************************************
         'Query acceso a Menus
         'Dim conexion As New SqlConnection("Data Source=127.0.0.1;Initial Catalog=4D_COLORANT; Persist Security Info=True;User ID=sa; Password=Sql2008;")
@@ -91,6 +91,7 @@ Public Class frmMenu
     Private Sub frmMenu_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         menus()
 
+
         Me.BackColor = ColorTranslator.FromHtml("#c8f4ff")
         Me.pnlMenus.BackColor = ColorTranslator.FromHtml("#96c1cc") '616161
         Me.pnlTxt.BackColor = ColorTranslator.FromHtml("#67919b") '616161
@@ -145,7 +146,9 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnInvt_Click(sender As System.Object, e As System.EventArgs) Handles btnInvt.Click
-
+        Dim mInt As New clsMenus
+        mInt.Inventario()
+        menus()
     End Sub
 
     Private Sub btnBanc_Click(sender As System.Object, e As System.EventArgs) Handles btnBanc.Click

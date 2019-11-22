@@ -22,6 +22,9 @@
         Dim usuario As String = txtUser.Text
         Dim contraseña As String = txtPassword.Text
 
+        Dim key As String = DirectCast(ComboBox1.SelectedItem, KeyValuePair(Of String, String)).Key
+        Dim value As String = DirectCast(ComboBox1.SelectedItem, KeyValuePair(Of String, String)).Value
+        Module1.mssql = key
 
         Dim acceso As String = ac.logear(usuario, contraseña)
         Select acceso
@@ -38,5 +41,17 @@
                 txtPassword.Clear()
                 txtUser.Focus()
         End Select
+    End Sub
+
+    Private Sub Login_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        Dim comboSource As New Dictionary(Of String, String)()
+
+        comboSource.Add("100.48.0.88", "PRODUCTIVO")
+        comboSource.Add("127.0.0.1", "PRUEBAS")
+
+        ComboBox1.DataSource = New BindingSource(comboSource, Nothing)
+        ComboBox1.DisplayMember = "Value"
+        ComboBox1.ValueMember = "Key"
+        ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
     End Sub
 End Class

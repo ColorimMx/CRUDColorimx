@@ -1,5 +1,16 @@
 ﻿Public Class clsMenus
 
+    Sub Inventario()
+        Dim mInvt As New clsPnlFrm
+        mInvt.AbrirFormPanel(mInv.menuSub, mInv.btnTxt1, mInv.btnTxt2,
+                             mInv.btnTxt3, mInv.btnTxt4, mInv.btnTxt5, mInv.btnTxt6,
+                             mInv.btnTxt7, mInv.btnTxt8, mInv.btnTxt9, mInv.btnTxt10, mInv.btnimg1,
+                             mInv.btnimg2, mInv.btnimg3, mInv.btnimg4, mInv.btnimg5,
+                             mInv.btnimg6, mInv.btnimg7, mInv.btnimg8, mInv.btnimg9,
+                             mInv.btnimg10, mInv.fonImg, mInv.btnColor)
+    End Sub
+
+
     Sub Contabilidad()
 
         Dim mCont As New clsPnlFrm

@@ -2,8 +2,8 @@
 Imports System.Data.SqlClient
 Public Module modMssql
     Public sqluser As String = "sa"
-    Public sqlpass As String = "Sql2008"
-    Public sqlserver As String = "100.48.0.88"
+    Public sqlpass As String = "Sql2014"
+    Public sqlserver As String = Module1.mssql
     Public sqldb As String = "4D_COLORANT"
 
 

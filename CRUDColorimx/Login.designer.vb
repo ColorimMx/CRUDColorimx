@@ -29,6 +29,8 @@ Partial Class Login
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnAccesar = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,7 +69,7 @@ Partial Class Login
         '
         'btnAccesar
         '
-        Me.btnAccesar.Location = New System.Drawing.Point(19, 119)
+        Me.btnAccesar.Location = New System.Drawing.Point(19, 137)
         Me.btnAccesar.Name = "btnAccesar"
         Me.btnAccesar.Size = New System.Drawing.Size(75, 23)
         Me.btnAccesar.TabIndex = 4
@@ -76,12 +78,29 @@ Partial Class Login
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(124, 119)
+        Me.Button2.Location = New System.Drawing.Point(124, 137)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(99, 99)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(100, 21)
+        Me.ComboBox1.TabIndex = 6
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(31, 105)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(46, 13)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "Servidor"
         '
         'Login
         '
@@ -90,6 +109,8 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(234, 166)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnAccesar)
         Me.Controls.Add(Me.txtPassword)
@@ -112,4 +133,6 @@ Partial Class Login
     Friend WithEvents txtPassword As System.Windows.Forms.TextBox
     Friend WithEvents btnAccesar As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class
