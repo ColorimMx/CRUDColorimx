@@ -89,6 +89,8 @@ Public Class frmMenu
     End Sub
 
     Private Sub frmMenu_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        menus()
+
         Me.BackColor = ColorTranslator.FromHtml("#c8f4ff")
         Me.pnlMenus.BackColor = ColorTranslator.FromHtml("#96c1cc") '616161
         Me.pnlTxt.BackColor = ColorTranslator.FromHtml("#67919b") '616161

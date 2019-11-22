@@ -1,0 +1,17 @@
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.exe
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.pdb
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.xml
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreApli.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreExp.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreRep.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreVer.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreApliVer.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.Login.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmMenu.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.Resources.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmSubMenu.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.GenerateResource.Cache
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.exe
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.xml
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.pdb
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbprojResolveAssemblyReference.cache
