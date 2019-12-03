@@ -10,6 +10,15 @@
                              mInv.btnimg10, mInv.fonImg, mInv.btnColor)
     End Sub
 
+    Sub Clientes()
+        Dim mClnt As New clsPnlFrm
+        mClnt.AbrirFormPanel(mCln.menuSub, mCln.btnTxt1, mCln.btnTxt2,
+                             mCln.btnTxt3, mCln.btnTxt4, mCln.btnTxt5, mCln.btnTxt6,
+                             mCln.btnTxt7, mCln.btnTxt8, mCln.btnTxt9, mCln.btnTxt10, mCln.btnimg1,
+                             mCln.btnimg2, mCln.btnimg3, mCln.btnimg4, mCln.btnimg5,
+                             mCln.btnimg6, mCln.btnimg7, mCln.btnimg8, mCln.btnimg9,
+                             mCln.btnimg10, mCln.fonImg, mCln.btnColor)
+    End Sub
 
     Sub Contabilidad()
 

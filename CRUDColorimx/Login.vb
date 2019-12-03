@@ -1,5 +1,13 @@
 ﻿Public Class Login
 
+    Sub Validar()
+        If txtDataBase.Text = String.Empty Then
+            btnAccesar.Enabled = False
+        Else
+            btnAccesar.Enabled = True
+        End If
+    End Sub
+
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Dim msg As String
         Dim title As String
@@ -8,7 +16,7 @@
         msg = "Esta seguro que desea salir?"
         style = MsgBoxStyle.DefaultButton2 Or
             MsgBoxStyle.Critical Or MsgBoxStyle.YesNo
-        title = "Sair"
+        title = "Salir"
         Response = MsgBox(msg, style, title)
         If Response = MsgBoxResult.Yes Then
             Me.Close()
@@ -22,9 +30,14 @@
         Dim usuario As String = txtUser.Text
         Dim contraseña As String = txtPassword.Text
 
-        Dim key As String = DirectCast(ComboBox1.SelectedItem, KeyValuePair(Of String, String)).Key
-        Dim value As String = DirectCast(ComboBox1.SelectedItem, KeyValuePair(Of String, String)).Value
-        Module1.mssql = key
+        Dim dataBase = txtDataBase.Text
+        Dim objIniFile As New clsIni(Module1.fSettings)
+
+        Module1.mssqlsrv = objIniFile.GetString(dataBase, "SERVER", "")
+        Module1.mssqldb = objIniFile.GetString(dataBase, "DB", "")
+        Module1.mssqlusr = objIniFile.GetString(dataBase, "USER", "")
+        Module1.mssqlpas = objIniFile.GetString(dataBase, "PASS", "")
+
 
         Dim acceso As String = ac.logear(usuario, contraseña)
         Select acceso
@@ -44,14 +57,26 @@
     End Sub
 
     Private Sub Login_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-        Dim comboSource As New Dictionary(Of String, String)()
 
-        comboSource.Add("100.48.0.88", "PRODUCTIVO")
-        comboSource.Add("127.0.0.1", "PRUEBAS")
+        Me.MaximizeBox = False
 
-        ComboBox1.DataSource = New BindingSource(comboSource, Nothing)
-        ComboBox1.DisplayMember = "Value"
-        ComboBox1.ValueMember = "Key"
-        ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
+        Me.ControlBox = False
+
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+
+        Me.Width = 370
+
+        Me.Height = 160
+        If System.IO.File.Exists(Module1.fSettings) = True Then
+            btnAccesar.Enabled = False
+        Else
+            MsgBox("No existe el archivo en la ruta: " & Module1.fSettings)
+            Application.ExitThread()
+        End If
+
+    End Sub
+
+    Private Sub txtDataBase_TextChanged(sender As System.Object, e As System.EventArgs) Handles txtDataBase.TextChanged
+        Validar()
     End Sub
 End Class

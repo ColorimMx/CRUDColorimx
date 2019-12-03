@@ -23,6 +23,18 @@ CRUDColorimx
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
+</member><member name="P:CRUDColorimx.My.Resources.Resources.cli2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CRUDColorimx.My.Resources.Resources.cli3">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CRUDColorimx.My.Resources.Resources.cli6">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:CRUDColorimx.My.Resources.Resources.con1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -91,6 +103,10 @@ CRUDColorimx
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
+</member><member name="P:CRUDColorimx.My.Resources.Resources.logo_b">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:CRUDColorimx.My.Resources.Resources.menu1">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -128,6 +144,10 @@ CRUDColorimx
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member><member name="P:CRUDColorimx.My.Resources.Resources.salir">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CRUDColorimx.My.Resources.Resources.siguiente">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

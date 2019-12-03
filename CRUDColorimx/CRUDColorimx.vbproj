@@ -83,10 +83,21 @@
     <Compile Include="Botones\clsBtn3.vb" />
     <Compile Include="Botones\clsBtn4.vb" />
     <Compile Include="Botones\clsBtn5.vb" />
+    <Compile Include="Botones\clsBtn6.vb" />
     <Compile Include="Botones\clsBtn7.vb" />
     <Compile Include="Clases\Acceso.vb" />
+    <Compile Include="Clases\clsIni.vb" />
     <Compile Include="Clases\clsMenus.vb" />
     <Compile Include="Clases\clsPnlFrm.vb" />
+    <Compile Include="Clientes\Facturas\clsExpCliFacPri.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliCiu.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliEdo.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliGir.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliPri.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliTip.vb" />
+    <Compile Include="Clientes\Principal\clsExpCliZon.vb" />
+    <Compile Include="Clientes\Qrys\modQryCliFac.vb" />
+    <Compile Include="Clientes\Qrys\modQryCliPrin.vb" />
     <Compile Include="Contabilidad\Presupuesto\clsExpPre.vb" />
     <Compile Include="Contabilidad\Presupuesto\clsExpPreAplDet.vb" />
     <Compile Include="Contabilidad\Presupuesto\clsExpPreApli.vb" />
@@ -146,6 +157,7 @@
     <Compile Include="Menu\frmMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Menu\mCln.vb" />
     <Compile Include="Menu\mCon.vb" />
     <Compile Include="Menu\mInv.vb" />
     <Compile Include="Modulos\mod4D.vb" />
@@ -168,6 +180,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SubMenu\Clientes\subMClnBI.vb" />
+    <Compile Include="SubMenu\Clientes\subMClnFac.vb" />
+    <Compile Include="SubMenu\Clientes\subMClnPri.vb" />
+    <Compile Include="SubMenu\Clientes\subMClnPri2.vb" />
+    <Compile Include="SubMenu\Clientes\subMClnRep.vb" />
     <Compile Include="SubMenu\Contabilidad\subMCue.vb" />
     <Compile Include="SubMenu\Contabilidad\subMPre.vb" />
     <Compile Include="SubMenu\frmSubMenu.designer.vb">
@@ -321,6 +338,25 @@
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101-invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cli2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cli3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

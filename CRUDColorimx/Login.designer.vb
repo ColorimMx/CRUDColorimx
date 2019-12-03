@@ -29,88 +29,102 @@ Partial Class Login
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnAccesar = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtDataBase = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(34, 39)
+        Me.Label1.Location = New System.Drawing.Point(66, 45)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(43, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Usuario"
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "User ID"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtUser
         '
-        Me.txtUser.Location = New System.Drawing.Point(99, 32)
+        Me.txtUser.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtUser.Location = New System.Drawing.Point(123, 42)
         Me.txtUser.Name = "txtUser"
-        Me.txtUser.Size = New System.Drawing.Size(100, 20)
-        Me.txtUser.TabIndex = 1
+        Me.txtUser.Size = New System.Drawing.Size(125, 20)
+        Me.txtUser.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(16, 73)
+        Me.Label2.Location = New System.Drawing.Point(56, 84)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(61, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Contraseña"
+        Me.Label2.Size = New System.Drawing.Size(53, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Password"
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(99, 66)
+        Me.txtPassword.Location = New System.Drawing.Point(123, 77)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPassword.Size = New System.Drawing.Size(100, 20)
-        Me.txtPassword.TabIndex = 3
+        Me.txtPassword.Size = New System.Drawing.Size(125, 20)
+        Me.txtPassword.TabIndex = 5
         '
         'btnAccesar
         '
-        Me.btnAccesar.Location = New System.Drawing.Point(19, 137)
+        Me.btnAccesar.Location = New System.Drawing.Point(267, 39)
         Me.btnAccesar.Name = "btnAccesar"
         Me.btnAccesar.Size = New System.Drawing.Size(75, 23)
-        Me.btnAccesar.TabIndex = 4
-        Me.btnAccesar.Text = "Entrar"
+        Me.btnAccesar.TabIndex = 6
+        Me.btnAccesar.Text = "&Ok"
         Me.btnAccesar.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(124, 137)
+        Me.Button2.Location = New System.Drawing.Point(267, 68)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Salir"
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "&Cancel"
         Me.Button2.UseVisualStyleBackColor = True
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(99, 99)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(100, 21)
-        Me.ComboBox1.TabIndex = 6
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(31, 105)
+        Me.Label3.Location = New System.Drawing.Point(55, 13)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(46, 13)
-        Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Servidor"
+        Me.Label3.Size = New System.Drawing.Size(54, 13)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "DataBase"
+        '
+        'txtDataBase
+        '
+        Me.txtDataBase.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtDataBase.Location = New System.Drawing.Point(123, 10)
+        Me.txtDataBase.Name = "txtDataBase"
+        Me.txtDataBase.Size = New System.Drawing.Size(125, 20)
+        Me.txtDataBase.TabIndex = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.CRUDColorimx.My.Resources.Resources.logo_b
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 29)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(39, 43)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.TabStop = False
         '
         'Login
         '
         Me.AcceptButton = Me.btnAccesar
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(234, 166)
+        Me.ClientSize = New System.Drawing.Size(354, 121)
         Me.ControlBox = False
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtDataBase)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnAccesar)
         Me.Controls.Add(Me.txtPassword)
@@ -123,6 +137,7 @@ Partial Class Login
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -133,6 +148,7 @@ Partial Class Login
     Friend WithEvents txtPassword As System.Windows.Forms.TextBox
     Friend WithEvents btnAccesar As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtDataBase As System.Windows.Forms.TextBox
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

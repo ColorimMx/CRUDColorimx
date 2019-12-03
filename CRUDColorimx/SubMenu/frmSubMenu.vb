@@ -7,47 +7,70 @@ Public Class frmSubMenu
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        
-
         Dim frm = Me.Name
 
         Select Case frm
+
+            '+++++++++++++++++++++++++++++++++++SUBMENU CONTABILIDAD+++++++++++++++++++++++++++++++++++
             Case "CONTABILIDAD"
                 subMCue.conf()
                 Dim mCue As New clsBtn1
                 mCue.Scontabilidad()
-            Case "PRESUPUESTO"
+
+                '+++++++++++++++++++++++++++++++++++SUBMENU CLIENTES+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES"
+                subMClnPri.conf()
+                Dim mCli As New clsBtn1
+                mCli.SClientes()
+
+                '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR"
                 frmMenu.pnlContenedor.Enabled = False
                 frmMenu.pnlMenus.Enabled = False
-                'Dim btnpre As New clsBtn1
-                'btnpre.presupuesto()
-                Dim export As New clsExpPre
+                Dim export As New clsExpCliPri
                 Try
-                    export.insPrePri()
-
+                    export.insCliPri()
                 Catch ex As Exception
                     MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
                 End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
 
-                'Me.Close()
+                '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES ESTADOS+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR 2"
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliEdo
+                Try
+                    export.insCliEdo()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
 
+                '+++++++++++++++++++++++++++++++++++EXPORTAR PRESUPUESTO PRINCIPAL+++++++++++++++++++++++++++++++++++
+            Case ("PRESUPUESTO")
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpPre
+                Try
+                    export.insPrePri()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
         End Select
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        
-
         Dim frm = Me.Name
 
         Select Case frm
             Case "PRESUPUESTO"
                 frmMenu.pnlContenedor.Enabled = False
                 frmMenu.pnlMenus.Enabled = False
-                'Dim btnpre As New clsBtn2
-                'btnpre.presupuesto()
-
                 Dim export As New clsExpPreApli
                 Try
                     export.insPreApli()
@@ -55,34 +78,62 @@ Public Class frmSubMenu
                 Catch ex As Exception
                     MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
                 End Try
-
-                'Me.Close()
-
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
 
+                '+++++++++++++++++++++++++++++++++++SUBMENU BUSINESS INTELIGENT CLIENTES +++++++++++++++++++++++++++++++++++
+            Case "CLIENTES"
+                subMClnBI.conf()
+                Dim mClnRep As New clsBtn2
+                mClnRep.SClientes()
         End Select
     End Sub
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim frm = Me.Name
 
         Select Case frm
+            '+++++++++++++++++++++++++++++++++++SUBMENU REPORTES CLIENTES +++++++++++++++++++++++++++++++++++
+            Case "CLIENTES"
+                subMClnRep.conf()
+                Dim mClnRep As New clsBtn3
+                mClnRep.SClientes()
+
+                '+++++++++++++++++++++++++++++++++++EXPORTAR APLICACION PRESUPUESTO+++++++++++++++++++++++++++++++++++
             Case "PRESUPUESTO"
                 frmMenu.pnlContenedor.Enabled = False
                 frmMenu.pnlMenus.Enabled = False
-                'Dim btnpre As New clsBtn2
-                'btnpre.presupuesto()
-
                 Dim export As New clsExpPreAplDet
                 Try
                     export.insPreAplDet()
-
                 Catch ex As Exception
                     MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
                 End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
 
-                'Me.Close()
+                '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES GIROS+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR"
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliGir
+                Try
+                    export.insCliGir()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
 
+                '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES ZONAS+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR 2"
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliZon
+                Try
+                    export.insCliPri()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
 
@@ -93,21 +144,20 @@ Public Class frmSubMenu
         Dim frm = Me.Name
 
         Select Case frm
+            '+++++++++++++++++++++++++++++++++++SUBMENU PRESUPUESTO+++++++++++++++++++++++++++++++++++
             Case "CONTABILIDAD"
-
                 subMPre.conf()
                 Dim mPre As New clsBtn7
                 mPre.Scontabilidad()
-            Case "PRESUPUESTO"
 
+                '+++++++++++++++++++++++++++++++++++REPORTE PRESUPUESTO+++++++++++++++++++++++++++++++++++
+            Case "PRESUPUESTO"
                 frmMenu.pnlContenedor.Enabled = False
                 frmMenu.pnlMenus.Enabled = False
-
                 Dim export As New clsExpPre
                 Dim export2 As New clsExpPreApli
                 Dim export3 As New clsExpPreAplDet
                 Dim btnpre As New clsBtn7
-
                 Try
                     'export.insPrePri()
                     'export2.insPreApli()
@@ -117,11 +167,21 @@ Public Class frmSubMenu
                 Catch ex As Exception
                     MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
                 End Try
-
-
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
 
+                '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES CIUDADES+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR"
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliCiu
+                Try
+                    export.insCliCiu()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
 
 
         End Select
@@ -130,8 +190,36 @@ Public Class frmSubMenu
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Dim frm = Me.Name
         Select Case frm
+            Case "INVENTARIO"
+                closeapp()
+            Case "CLIENTES"
+                closeapp()
             Case "CONTABILIDAD"
                 closeapp()
+            Case "CLIENTES REPORTES"
+                Dim mClnt As New clsMenus
+                mClnt.Clientes()
+                mCln.conf()
+            Case "CLIENTES BUSINESS INTELLIGENCE"
+                Dim mClnt As New clsMenus
+                mClnt.Clientes()
+                mCln.conf()
+            Case "CLIENTES REPORTES"
+                Dim mClnt As New clsMenus
+                mClnt.Clientes()
+                mCln.conf()
+            Case "FACTURAS"
+                Dim mClnt As New clsMenus
+                mClnt.Clientes()
+                mCln.conf()
+            Case "CLIENTES VER/EDITAR"
+                Dim mClnt As New clsMenus
+                mClnt.Clientes()
+                mCln.conf()
+            Case "CLIENTES VER/EDITAR 2"
+                subMClnPri.conf()
+                Dim mCli As New clsBtn1
+                mCli.SClientes()
             Case "PRESUPUESTO"
                 Dim mCont As New clsMenus
                 mCont.Contabilidad()
@@ -203,9 +291,44 @@ Public Class frmSubMenu
         Dim frm = Me.Name
 
         Select Case frm
+            '+++++++++++++++++++++++++++++++++++EXPORTAR CLIENTES TIPOS+++++++++++++++++++++++++++++++++++
+            Case "CLIENTES VER/EDITAR"
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliTip
+                Try
+                    export.insCliTip()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
             Case "PRESUPUESTO"
                 Dim btnpre As New clsBtn5
                 btnpre.presupuesto()
+        End Select
+    End Sub
+
+    Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
+        Dim frm = Me.Name
+
+        Select Case frm
+            Case "CLIENTES VER/EDITAR"
+                subMClnPri2.conf()
+                Dim mCli As New clsBtn1
+                mCli.SClientes2()
+        End Select
+    End Sub
+
+    
+    Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
+        Dim frm = Me.Name
+
+        Select Case frm
+            Case "CLIENTES"
+                subMClnFac.conf()
+                Dim mCli As New clsBtn6
+                mCli.SClientes()
         End Select
     End Sub
 End Class

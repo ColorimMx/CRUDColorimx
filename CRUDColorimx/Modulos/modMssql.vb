@@ -1,10 +1,10 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
 Public Module modMssql
-    Public sqluser As String = "sa"
-    Public sqlpass As String = "Sql2014"
-    Public sqlserver As String = Module1.mssql
-    Public sqldb As String = "4D_COLORANT"
+    Public sqluser As String = Module1.mssqlusr
+    Public sqlpass As String = Module1.mssqlpas
+    Public sqlserver As String = Module1.mssqlsrv
+    Public sqldb As String = Module1.mssqldb
 
 
     Public conmssql As New SqlConnection("Data Source=" & sqlserver +

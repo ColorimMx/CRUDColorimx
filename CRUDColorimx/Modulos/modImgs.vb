@@ -18,8 +18,14 @@
     Public imgSalir = Global.CRUDColorimx.My.Resources.salir
     Public imgOpc = Global.CRUDColorimx.My.Resources.opciones
     Public imgDbSync = Global.CRUDColorimx.My.Resources.dbSync
+    Public imgSiguiente = Global.CRUDColorimx.My.Resources.siguiente
     Public imgRegresar = Global.CRUDColorimx.My.Resources.anterior
     Public imgView = Global.CRUDColorimx.My.Resources.view
+
+    Public imgClnt2 = Global.CRUDColorimx.My.Resources.cli2
+    Public imgClnt3 = Global.CRUDColorimx.My.Resources.cli3
+    Public imgClnt6 = Global.CRUDColorimx.My.Resources.cli6
+  
 
     Public imgCont1 = Global.CRUDColorimx.My.Resources.con1
     Public imgCont2 = Global.CRUDColorimx.My.Resources.con2

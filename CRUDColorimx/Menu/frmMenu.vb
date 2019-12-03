@@ -1,5 +1,6 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
+
 Public Class frmMenu
 
     Sub menus()
@@ -148,7 +149,9 @@ Public Class frmMenu
     Private Sub btnInvt_Click(sender As System.Object, e As System.EventArgs) Handles btnInvt.Click
         Dim mInt As New clsMenus
         mInt.Inventario()
+        mInv.conf()
         menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnBanc_Click(sender As System.Object, e As System.EventArgs) Handles btnBanc.Click
@@ -156,7 +159,11 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnClie_Click(sender As System.Object, e As System.EventArgs) Handles btnClie.Click
-
+        Dim mClin As New clsMenus
+        mClin.Clientes()
+        mCln.conf()
+        menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnActF_Click(sender As System.Object, e As System.EventArgs) Handles btnActF.Click
@@ -168,6 +175,7 @@ Public Class frmMenu
         mCont.Contabilidad()
         mCon.conf()
         menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnAdm_Click(sender As System.Object, e As System.EventArgs) Handles btnAdm.Click

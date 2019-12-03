@@ -37,7 +37,7 @@ Partial Class frmSubMenu
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Silver
-        Me.Button1.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
@@ -50,7 +50,7 @@ Partial Class frmSubMenu
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Silver
-        Me.Button2.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(12, 80)
         Me.Button2.Name = "Button2"
@@ -63,7 +63,7 @@ Partial Class frmSubMenu
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Silver
-        Me.Button3.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(12, 148)
         Me.Button3.Name = "Button3"
@@ -76,7 +76,7 @@ Partial Class frmSubMenu
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Silver
-        Me.Button4.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Location = New System.Drawing.Point(12, 216)
         Me.Button4.Name = "Button4"
@@ -89,7 +89,7 @@ Partial Class frmSubMenu
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Silver
-        Me.Button5.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(12, 284)
         Me.Button5.Name = "Button5"
@@ -102,7 +102,7 @@ Partial Class frmSubMenu
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.Silver
-        Me.Button6.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Location = New System.Drawing.Point(290, 12)
         Me.Button6.Name = "Button6"
@@ -115,7 +115,7 @@ Partial Class frmSubMenu
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.Silver
-        Me.Button7.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Location = New System.Drawing.Point(290, 80)
         Me.Button7.Name = "Button7"
@@ -128,7 +128,7 @@ Partial Class frmSubMenu
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.Silver
-        Me.Button8.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(290, 148)
         Me.Button8.Name = "Button8"
@@ -141,7 +141,7 @@ Partial Class frmSubMenu
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Silver
-        Me.Button9.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(290, 216)
         Me.Button9.Name = "Button9"
@@ -154,7 +154,7 @@ Partial Class frmSubMenu
         'Button10
         '
         Me.Button10.BackColor = System.Drawing.Color.Silver
-        Me.Button10.Font = New System.Drawing.Font("Roboto Condensed", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Button10.ForeColor = System.Drawing.Color.White
         Me.Button10.Location = New System.Drawing.Point(290, 284)
         Me.Button10.Name = "Button10"

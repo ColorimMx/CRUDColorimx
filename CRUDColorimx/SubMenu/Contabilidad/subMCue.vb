@@ -24,7 +24,7 @@
     Public btnimg10 = imgRegresar
 
     Public fonImg = imgFCont
-    Public btnColor = "#7c2bcb"
+    Public btnColor = "#b15dfF"
 
     Sub conf()
 
