@@ -61,6 +61,28 @@ Public Class frmSubMenu
                 End Try
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
+
+                '+++++++++++++++++++++++++++++++++++EXPORTAR FACTURAS+++++++++++++++++++++++++++++++++++
+
+            Case ("FACTURAS")
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
+                Dim export As New clsExpCliFacPri
+                Dim export2 As New clsExpCliFacDet
+                Try
+                    export.insCliFacPri()
+                    export2.insCliFacDet()
+                Catch ex As Exception
+                    MsgBox("Atención!!! " & ex.Message.ToString, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly)
+                End Try
+                frmMenu.pnlContenedor.Enabled = True
+                frmMenu.pnlMenus.Enabled = True
+
+            Case ("CLIENTES REPORTES")
+                Dim repCli1 As New frmParCliVtsZ
+                repCli1.Show()
+                frmMenu.pnlContenedor.Enabled = False
+                frmMenu.pnlMenus.Enabled = False
         End Select
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

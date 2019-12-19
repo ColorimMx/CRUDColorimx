@@ -89,7 +89,12 @@
     <Compile Include="Clases\clsIni.vb" />
     <Compile Include="Clases\clsMenus.vb" />
     <Compile Include="Clases\clsPnlFrm.vb" />
+    <Compile Include="Clientes\Facturas\clsExpCliFacDet.vb" />
     <Compile Include="Clientes\Facturas\clsExpCliFacPri.vb" />
+    <Compile Include="Clientes\Facturas\clsExpFacDetPar.vb" />
+    <Compile Include="Clientes\Facturas\clsExpFacPriPar.vb" />
+    <Compile Include="Clientes\Facturas\clsListFacView.vb" />
+    <Compile Include="Clientes\modClientes.vb" />
     <Compile Include="Clientes\Principal\clsExpCliCiu.vb" />
     <Compile Include="Clientes\Principal\clsExpCliEdo.vb" />
     <Compile Include="Clientes\Principal\clsExpCliGir.vb" />
@@ -98,6 +103,19 @@
     <Compile Include="Clientes\Principal\clsExpCliZon.vb" />
     <Compile Include="Clientes\Qrys\modQryCliFac.vb" />
     <Compile Include="Clientes\Qrys\modQryCliPrin.vb" />
+    <Compile Include="Clientes\Qrys\modQryCliVenZon.vb" />
+    <Compile Include="Clientes\Reportes\frmExcCliVtsZ.Designer.vb">
+      <DependentUpon>frmExcCliVtsZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Reportes\frmExcCliVtsZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Reportes\frmParCliVtsZ.Designer.vb">
+      <DependentUpon>frmParCliVtsZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Reportes\frmParCliVtsZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Contabilidad\Presupuesto\clsExpPre.vb" />
     <Compile Include="Contabilidad\Presupuesto\clsExpPreAplDet.vb" />
     <Compile Include="Contabilidad\Presupuesto\clsExpPreApli.vb" />
@@ -195,6 +213,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Clientes\Reportes\frmExcCliVtsZ.resx">
+      <DependentUpon>frmExcCliVtsZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\Reportes\frmParCliVtsZ.resx">
+      <DependentUpon>frmParCliVtsZ.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contabilidad\Presupuesto\cRepPres.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>cRepPres.vb</LastGenOutput>

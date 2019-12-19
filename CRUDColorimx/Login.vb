@@ -59,14 +59,11 @@
     Private Sub Login_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 
         Me.MaximizeBox = False
-
         Me.ControlBox = False
-
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-
         Me.Width = 370
-
         Me.Height = 160
+
         If System.IO.File.Exists(Module1.fSettings) = True Then
             btnAccesar.Enabled = False
         Else
