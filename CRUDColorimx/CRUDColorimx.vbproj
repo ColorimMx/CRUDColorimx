@@ -178,6 +178,7 @@
     <Compile Include="Menu\mCln.vb" />
     <Compile Include="Menu\mCon.vb" />
     <Compile Include="Menu\mInv.vb" />
+    <Compile Include="Menu\mPrv.vb" />
     <Compile Include="Modulos\mod4D.vb" />
     <Compile Include="Modulos\modImgs.vb" />
     <Compile Include="Modulos\modMssql.vb" />

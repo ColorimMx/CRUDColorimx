@@ -15,10 +15,10 @@ Public Class frmMenu
                                          "User ID=" & sqluser +
                                          "; Password=" & sqlpass +
                                          ";")
-        Dim menus As New SqlCommand("SELECT USUARIOS.ID, USUARIOS.NOMBRE, USUARIOS.APELLIDO_P, USUARIOS.APELLIDO_M, USUARIOS.USUARIO," +
+        Dim menus As New SqlCommand("SELECT USUARIOS.ID_USUARIO, USUARIOS.NOMBRE, USUARIOS.APELLIDO_P, USUARIOS.APELLIDO_M, USUARIOS.USUARIO," +
                                     "USUARIOS.CONTRASENA, USUARIOS.ACCESO, MENUS.M_PROVEEDORES, MENUS.M_INVENTARIO," +
-        "MENUS.M_BANCOS, MENUS.M_CLIENTES, MENUS.M_ACTIVO_FIJO, MENUS.M_CONTABILIDAD, MENUS.M_ADMINISTRADOR, " +
-        "USUARIOS.DEPTO,USUARIOS.EMPRESA FROM USUARIOS INNER JOIN MENUS ON USUARIOS.ID = MENUS.ID WHERE USUARIO = @usuario", conexion)
+        "MENUS.M_BANCOS, MENUS.M_CLIENTES, MENUS.M_ACTFIJO, MENUS.M_CONTABILIDAD, MENUS.M_ADMINISTRADOR, " +
+        "USUARIOS.DEPTO,USUARIOS.EMPRESA FROM USUARIOS INNER JOIN MENUS ON USUARIOS.ID_USUARIO = MENUS.ID_USUARIO WHERE USUARIO = @usuario", conexion)
 
         menus.Parameters.Add("@usuario", SqlDbType.VarChar).Value = Module1.nombre
 
