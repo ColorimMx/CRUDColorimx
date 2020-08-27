@@ -30,4 +30,14 @@
                              mCon.btnimg6, mCon.btnimg7, mCon.btnimg8, mCon.btnimg9,
                              mCon.btnimg10, mCon.fonImg, mCon.btnColor)
     End Sub
+
+    Sub Proveedores()
+        Dim mProv As New clsPnlFrm
+        mProv.AbrirFormPanel(mPrv.menuSub, mPrv.btnTxt1, mPrv.btnTxt2,
+                             mPrv.btnTxt3, mPrv.btnTxt4, mPrv.btnTxt5, mPrv.btnTxt6,
+                             mPrv.btnTxt7, mPrv.btnTxt8, mPrv.btnTxt9, mPrv.btnTxt10, mPrv.btnimg1,
+                             mPrv.btnimg2, mPrv.btnimg3, mPrv.btnimg4, mPrv.btnimg5,
+                             mPrv.btnimg6, mPrv.btnimg7, mPrv.btnimg8, mPrv.btnimg9,
+                             mPrv.btnimg10, mPrv.fonImg, mPrv.btnColor)
+    End Sub
 End Class

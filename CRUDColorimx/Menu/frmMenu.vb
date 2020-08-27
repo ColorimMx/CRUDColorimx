@@ -143,7 +143,11 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnProv_Click(sender As System.Object, e As System.EventArgs) Handles btnProv.Click
-
+        Dim mPro As New clsMenus
+        mPro.Proveedores()
+        mPrv.conf()
+        menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnInvt_Click(sender As System.Object, e As System.EventArgs) Handles btnInvt.Click
