@@ -40,4 +40,14 @@
                              mPrv.btnimg6, mPrv.btnimg7, mPrv.btnimg8, mPrv.btnimg9,
                              mPrv.btnimg10, mPrv.fonImg, mPrv.btnColor)
     End Sub
+
+    Sub Bancos()
+        Dim mBanc As New clsPnlFrm
+        mBanc.AbrirFormPanel(mBan.menuSub, mBan.btnTxt1, mBan.btnTxt2,
+                             mBan.btnTxt3, mBan.btnTxt4, mBan.btnTxt5, mBan.btnTxt6,
+                             mBan.btnTxt7, mBan.btnTxt8, mBan.btnTxt9, mBan.btnTxt10, mBan.btnimg1,
+                             mBan.btnimg2, mBan.btnimg3, mBan.btnimg4, mBan.btnimg5,
+                             mBan.btnimg6, mBan.btnimg7, mBan.btnimg8, mBan.btnimg9,
+                             mBan.btnimg10, mBan.fonImg, mBan.btnColor)
+    End Sub
 End Class

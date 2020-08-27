@@ -159,7 +159,11 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnBanc_Click(sender As System.Object, e As System.EventArgs) Handles btnBanc.Click
-
+        Dim mBnc As New clsMenus
+        mBnc.Bancos()
+        mBan.conf()
+        menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnClie_Click(sender As System.Object, e As System.EventArgs) Handles btnClie.Click
