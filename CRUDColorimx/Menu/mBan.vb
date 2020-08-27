@@ -25,7 +25,7 @@ Module mBan
     Public btnimg9 = imgOpc
     Public btnimg10 = imgSalir
 
-    Public fonImg = imgFProv
+    Public fonImg = imgFBanc
 
     Public btnColor = "#f73526"
 

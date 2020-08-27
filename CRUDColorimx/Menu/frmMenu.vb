@@ -175,7 +175,11 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnActF_Click(sender As System.Object, e As System.EventArgs) Handles btnActF.Click
-
+        Dim mActi As New clsMenus
+        mActi.Activo()
+        mAcf.conf()
+        menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnCont_Click(sender As System.Object, e As System.EventArgs) Handles btnCont.Click
@@ -187,7 +191,11 @@ Public Class frmMenu
     End Sub
 
     Private Sub btnAdm_Click(sender As System.Object, e As System.EventArgs) Handles btnAdm.Click
-
+        Dim mAdmt As New clsMenus
+        mAdmt.Administrador()
+        mAdm.conf()
+        menus()
+        Me.btnSalir.Visible = False
     End Sub
 
     Private Sub btnSalir_Click(sender As System.Object, e As System.EventArgs) Handles btnSalir.Click

@@ -50,4 +50,24 @@
                              mBan.btnimg6, mBan.btnimg7, mBan.btnimg8, mBan.btnimg9,
                              mBan.btnimg10, mBan.fonImg, mBan.btnColor)
     End Sub
+
+    Sub Activo()
+        Dim mActf As New clsPnlFrm
+        mActf.AbrirFormPanel(mAcf.menuSub, mAcf.btnTxt1, mAcf.btnTxt2,
+                             mAcf.btnTxt3, mAcf.btnTxt4, mAcf.btnTxt5, mAcf.btnTxt6,
+                             mAcf.btnTxt7, mAcf.btnTxt8, mAcf.btnTxt9, mAcf.btnTxt10, mAcf.btnimg1,
+                             mAcf.btnimg2, mAcf.btnimg3, mAcf.btnimg4, mAcf.btnimg5,
+                             mAcf.btnimg6, mAcf.btnimg7, mAcf.btnimg8, mAcf.btnimg9,
+                             mAcf.btnimg10, mAcf.fonImg, mAcf.btnColor)
+    End Sub
+
+    Sub Administrador()
+        Dim mAdmi As New clsPnlFrm
+        mAdmi.AbrirFormPanel(mAdm.menuSub, mAdm.btnTxt1, mAdm.btnTxt2,
+                             mAdm.btnTxt3, mAdm.btnTxt4, mAdm.btnTxt5, mAdm.btnTxt6,
+                             mAdm.btnTxt7, mAdm.btnTxt8, mAdm.btnTxt9, mAdm.btnTxt10, mAdm.btnimg1,
+                             mAdm.btnimg2, mAdm.btnimg3, mAdm.btnimg4, mAdm.btnimg5,
+                             mAdm.btnimg6, mAdm.btnimg7, mAdm.btnimg8, mAdm.btnimg9,
+                             mAdm.btnimg10, mAdm.fonImg, mAdm.btnColor)
+    End Sub
 End Class

@@ -175,6 +175,8 @@
     <Compile Include="Menu\frmMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Menu\mAcf.vb" />
+    <Compile Include="Menu\mAdm.vb" />
     <Compile Include="Menu\mBan.vb" />
     <Compile Include="Menu\mCln.vb" />
     <Compile Include="Menu\mCon.vb" />
