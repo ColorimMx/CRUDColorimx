@@ -17,3 +17,4 @@ C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRU
 C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbprojResolveAssemblyReference.cache
 C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmParCliVtsZ.resources
 C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmExcCliVtsZ.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmClnComFam.resources

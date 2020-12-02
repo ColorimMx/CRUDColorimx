@@ -3,7 +3,7 @@ Imports System.Data.SqlClient
 Module mAdm
     Public menuSub = "Administrador"
 
-    Public btnTxt1 = "Administrador"
+    Public btnTxt1 = "Usuarios"
     Public btnTxt2 = "Administrador"
     Public btnTxt3 = "Administrador"
     Public btnTxt4 = "Administrador"

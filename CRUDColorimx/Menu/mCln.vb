@@ -10,7 +10,7 @@ Module mCln
     Public btnTxt5 = "Clientes"
     Public btnTxt6 = "Facturas"
     Public btnTxt7 = "Clientes"
-    Public btnTxt8 = "Clientes"
+    Public btnTxt8 = "Comisiones"
     Public btnTxt9 = "Opciones"
     Public btnTxt10 = ""
 
@@ -21,7 +21,7 @@ Module mCln
     Public btnimg5 = imgClie
     Public btnimg6 = imgClnt6
     Public btnimg7 = imgClie
-    Public btnimg8 = imgClie
+    Public btnimg8 = imgClnt8
     Public btnimg9 = imgOpc
     Public btnimg10 = imgSalir
 

@@ -9,4 +9,8 @@
                              subMClnRep.btnimg10, subMClnRep.fonImg, subMClnRep.btnColor)
 
     End Sub
+    Sub comisiones2()
+        Dim FrmComi2 As New frmClnComCli
+        FrmComi2.Show()
+    End Sub
 End Class

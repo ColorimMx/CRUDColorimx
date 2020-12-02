@@ -85,10 +85,29 @@
     <Compile Include="Botones\clsBtn5.vb" />
     <Compile Include="Botones\clsBtn6.vb" />
     <Compile Include="Botones\clsBtn7.vb" />
+    <Compile Include="Botones\clsBtn8.vb" />
     <Compile Include="Clases\Acceso.vb" />
     <Compile Include="Clases\clsIni.vb" />
     <Compile Include="Clases\clsMenus.vb" />
     <Compile Include="Clases\clsPnlFrm.vb" />
+    <Compile Include="Clientes\Comisiones\frmClnComCli.Designer.vb">
+      <DependentUpon>frmClnComCli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Comisiones\frmClnComCli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Comisiones\frmClnComCob.Designer.vb">
+      <DependentUpon>frmClnComCob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Comisiones\frmClnComCob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Comisiones\frmClnComFam.Designer.vb">
+      <DependentUpon>frmClnComFam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Comisiones\frmClnComFam.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Clientes\Facturas\clsExpCliFacDet.vb" />
     <Compile Include="Clientes\Facturas\clsExpCliFacPri.vb" />
     <Compile Include="Clientes\Facturas\clsExpFacDetPar.vb" />
@@ -203,6 +222,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SubMenu\Clientes\subMClnBI.vb" />
+    <Compile Include="SubMenu\Clientes\subMClnCom.vb" />
     <Compile Include="SubMenu\Clientes\subMClnFac.vb" />
     <Compile Include="SubMenu\Clientes\subMClnPri.vb" />
     <Compile Include="SubMenu\Clientes\subMClnPri2.vb" />
@@ -217,6 +237,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Clientes\Comisiones\frmClnComFam.resx">
+      <DependentUpon>frmClnComFam.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Clientes\Reportes\frmExcCliVtsZ.resx">
       <DependentUpon>frmExcCliVtsZ.vb</DependentUpon>
     </EmbeddedResource>
@@ -385,6 +408,9 @@
     <None Include="Resources\siguiente.png" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\comisiones.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

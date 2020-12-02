@@ -9,12 +9,12 @@ Public Class frmPreRep
 
         If Module1.pre_com = True Then
             Me.CrystalReportViewer1.ReportSource = CR1
-            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.UserID = "sa"
-            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.Password = "Sql2008"
+            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.UserID = Module1.mssqlusr
+            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.Password = Module1.mssqlpas
         Else
             Me.CrystalReportViewer1.ReportSource = CR2
-            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.UserID = "sa"
-            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.Password = "Sql2008"
+            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.UserID = Module1.mssqlusr
+            Me.CrystalReportViewer1.LogOnInfo.Item(0).ConnectionInfo.Password = Module1.mssqlpas
 
             Me.CrystalReportViewer1.EnableRefresh = False
             Dim crParameterFieldDefinitions As ParameterFieldDefinitions
@@ -30,5 +30,9 @@ Public Class frmPreRep
             crParameterValues.Add(crParameterDiscreteValue)
             crParameterFieldDefinition.ApplyCurrentValues(crParameterValues)
         End If
+    End Sub
+
+    Private Sub frmPreRep_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

@@ -25,6 +25,7 @@
     Public imgClnt2 = Global.CRUDColorimx.My.Resources.cli2
     Public imgClnt3 = Global.CRUDColorimx.My.Resources.cli3
     Public imgClnt6 = Global.CRUDColorimx.My.Resources.cli6
+    Public imgClnt8 = Global.CRUDColorimx.My.Resources.comisiones
   
 
     Public imgCont1 = Global.CRUDColorimx.My.Resources.con1

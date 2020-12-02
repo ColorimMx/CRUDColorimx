@@ -14,4 +14,8 @@
                              subMClnBI.btnimg10, subMClnBI.fonImg, subMClnBI.btnColor)
 
     End Sub
+    Sub comisiones1()
+        Dim FrmComi1 As New frmClnComFam
+        FrmComi1.Show()
+    End Sub
 End Class
