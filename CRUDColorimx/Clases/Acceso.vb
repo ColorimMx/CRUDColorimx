@@ -12,6 +12,7 @@ Public Class Acceso
             adapter = New SqlDataAdapter(sql, conmssql.ConnectionString)
             adapter.Fill(ds)
             acceso = ds.Tables(0).Rows(0).Item(0).ToString
+            'Dim 
         Catch ex As Exception
             MsgBox(" Usuario/Contraseña Invalidos ", vbCritical)
         Finally

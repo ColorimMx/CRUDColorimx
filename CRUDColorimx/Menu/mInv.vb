@@ -8,7 +8,7 @@ Module mInv
     Public btnTxt3 = "Inventario"
     Public btnTxt4 = "Producción"
     Public btnTxt5 = "Inventario"
-    Public btnTxt6 = "Inventario"
+    Public btnTxt6 = "Almacenes"
     Public btnTxt7 = "Inventario"
     Public btnTxt8 = "Inventario"
     Public btnTxt9 = "Opciones"

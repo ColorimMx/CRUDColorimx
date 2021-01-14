@@ -201,4 +201,8 @@ Public Class frmMenu
     Private Sub btnSalir_Click(sender As System.Object, e As System.EventArgs) Handles btnSalir.Click
         closeapp()
     End Sub
+
+    Private Sub pnlContenedor_Paint(ByVal sender As System.Object, ByVal e As System.Windows.Forms.PaintEventArgs) Handles pnlContenedor.Paint
+
+    End Sub
 End Class

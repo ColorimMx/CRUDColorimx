@@ -58,9 +58,9 @@ Partial Class frmMenu
         Me.titulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold)
         Me.titulo.Location = New System.Drawing.Point(224, 47)
         Me.titulo.Name = "titulo"
-        Me.titulo.Size = New System.Drawing.Size(742, 39)
+        Me.titulo.Size = New System.Drawing.Size(568, 39)
         Me.titulo.TabIndex = 2
-        Me.titulo.Text = "Análisis, corrección de datos e información. "
+        Me.titulo.Text = "Colorantes Importados SA de CV."
         '
         'PictureBox1
         '
@@ -217,7 +217,7 @@ Partial Class frmMenu
         Me.Controls.Add(Me.pnlTxt)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMenu"
-        Me.Text = "ACDI COLORIM"
+        Me.Text = "SYSADM COLORIM"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnlTxt.ResumeLayout(False)
         Me.pnlTxt.PerformLayout()

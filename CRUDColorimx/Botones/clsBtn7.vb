@@ -13,4 +13,14 @@
         Dim FrmPres As New frmPreRep
         FrmPres.Show()
     End Sub
+    Sub SDespachos()
+        Dim mDes As New clsPnlFrm
+        mDes.AbrirFormPanel(subMInvDes.menuSub, subMInvDes.btnTxt1, subMInvDes.btnTxt2,
+                             subMInvDes.btnTxt3, subMInvDes.btnTxt4, subMInvDes.btnTxt5, subMInvDes.btnTxt6,
+                             subMInvDes.btnTxt7, subMInvDes.btnTxt8, subMInvDes.btnTxt9, subMInvDes.btnTxt10, subMInvDes.btnimg1,
+                             subMInvDes.btnimg2, subMInvDes.btnimg3, subMInvDes.btnimg4, subMInvDes.btnimg5,
+                             subMInvDes.btnimg6, subMInvDes.btnimg7, subMInvDes.btnimg8, subMInvDes.btnimg9,
+                             subMInvDes.btnimg10, subMInvDes.fonImg, subMInvDes.btnColor)
+
+    End Sub
 End Class

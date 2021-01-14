@@ -8,4 +8,14 @@
                              subMClnFac.btnimg6, subMClnFac.btnimg7, subMClnFac.btnimg8, subMClnFac.btnimg9,
                              subMClnFac.btnimg10, subMClnFac.fonImg, subMClnFac.btnColor)
     End Sub
+
+    Sub SInventario()
+        Dim mInvt As New clsPnlFrm
+        mInvt.AbrirFormPanel(subInvAlm.menuSub, subInvAlm.btnTxt1, subInvAlm.btnTxt2,
+                             subInvAlm.btnTxt3, subInvAlm.btnTxt4, subInvAlm.btnTxt5, subInvAlm.btnTxt6,
+                             subInvAlm.btnTxt7, subInvAlm.btnTxt8, subInvAlm.btnTxt9, subInvAlm.btnTxt10, subInvAlm.btnimg1,
+                             subInvAlm.btnimg2, subInvAlm.btnimg3, subInvAlm.btnimg4, subInvAlm.btnimg5,
+                             subInvAlm.btnimg6, subInvAlm.btnimg7, subInvAlm.btnimg8, subInvAlm.btnimg9,
+                             subInvAlm.btnimg10, subInvAlm.fonImg, subInvAlm.btnColor)
+    End Sub
 End Class

@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Mariposa.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -182,6 +185,26 @@
     </Compile>
     <Compile Include="Contabilidad\Presupuesto\modExpPre.vb" />
     <Compile Include="Contabilidad\Presupuesto\modQryPresupuesto.vb" />
+    <Compile Include="Inventario\Despachos\clsExpInvAlmDesImp.vb" />
+    <Compile Include="Inventario\Despachos\CRepDesImp.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRepDesImp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Inventario\Despachos\frmInvAlmDes.Designer.vb">
+      <DependentUpon>frmInvAlmDes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Despachos\frmInvAlmDes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Despachos\frmInvAlmDesImp.Designer.vb">
+      <DependentUpon>frmInvAlmDesImp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario\Despachos\frmInvAlmDesImp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario\Qrys\modQryInvDes.vb" />
     <Compile Include="Login.designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -235,6 +258,8 @@
     <Compile Include="SubMenu\frmSubMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SubMenu\Inventario\subInvAlm.vb" />
+    <Compile Include="SubMenu\Inventario\subMInvDes.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Clientes\Comisiones\frmClnComFam.resx">
@@ -268,6 +293,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Contabilidad\Presupuesto\frnPreApliVer.resx">
       <DependentUpon>frnPreApliVer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Despachos\CRepDesImp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRepDesImp.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Despachos\frmInvAlmDes.resx">
+      <DependentUpon>frmInvAlmDes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario\Despachos\frmInvAlmDesImp.resx">
+      <DependentUpon>frmInvAlmDesImp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
@@ -407,9 +442,18 @@
   <ItemGroup>
     <None Include="Resources\siguiente.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Activo\" />
+    <Folder Include="Administrador\" />
+    <Folder Include="Bancos\" />
+    <Folder Include="Inventario\Reportes\" />
+    <Folder Include="Proveedores\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comisiones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mariposa.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

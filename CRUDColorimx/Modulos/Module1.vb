@@ -8,4 +8,8 @@
     Public mssqlusr As String
     Public mssqlpas As String
     Public fSettings As String = "C:\Settings\sql.ini"
+    Public odbcSqlUsr As String = "Sa"
+    Public odbcSqlPass As String = "Sql2008"
+    Public odbc4dUsr As String = "ODBC"
+    Public odbc4dPass As String = "ODBC"
 End Module

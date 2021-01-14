@@ -30,11 +30,11 @@
 
         frmMenu.titulo.Text = menuSub
 
-        frmMenu.btnProv.Enabled = True
-        frmMenu.btnInvt.Enabled = True
-        frmMenu.btnBanc.Enabled = True
-        frmMenu.btnClie.Enabled = True
-        frmMenu.btnActF.Enabled = True
+        'frmMenu.btnProv.Enabled = True
+        'frmMenu.btnInvt.Enabled = True
+        'frmMenu.btnBanc.Enabled = True
+        'frmMenu.btnClie.Enabled = True
+        'frmMenu.btnActF.Enabled = True
         frmMenu.btnCont.Enabled = False
 
         frmSubMenu.Button1.Enabled = True

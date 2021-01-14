@@ -79,6 +79,10 @@ Public Class frmSubMenu
                 repCli1.Show()
                 frmMenu.pnlContenedor.Enabled = False
                 frmMenu.pnlMenus.Enabled = False
+                '+++++++++++++++++++++++++++++++++++EXPORTAR DESPACHOS IMPRESION+++++++++++++++++++++++++++++++++++
+            Case ("DESPACHOS")
+                Dim expInvAlmDes As New frmInvAlmDes
+                expInvAlmDes.Show()
         End Select
     End Sub
     Private Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
@@ -194,6 +198,9 @@ Public Class frmSubMenu
                 subMClnFac.conf()
                 'Dim mCli As New clsBtn6
                 btn6.SClientes()
+            Case "INVENTARIO"
+                subInvAlm.conf()
+                btn6.SInventario()
         End Select
     End Sub
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
@@ -235,6 +242,9 @@ Public Class frmSubMenu
                 End Try
                 frmMenu.pnlContenedor.Enabled = True
                 frmMenu.pnlMenus.Enabled = True
+            Case "ALMACENES"
+                subMInvDes.conf()
+                btn7.SDespachos()
         End Select
     End Sub
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
@@ -259,6 +269,12 @@ Public Class frmSubMenu
         Select Case frm
             Case "INVENTARIO"
                 closeapp()
+            Case "ALMACENES"
+                menus.Inventario()
+                mInv.conf()
+            Case "DESPACHOS"
+                btn6.SInventario()
+                subInvAlm.conf()
             Case "CLIENTES"
                 closeapp()
             Case "CONTABILIDAD"

@@ -29,6 +29,7 @@
 
     Sub conf()
         frmMenu.titulo.Text = menuSub
+        frmMenu.btnCont.Enabled = False
     End Sub
 
 End Module
