@@ -40,3 +40,5 @@ C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\C
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.GenerateResource.Cache
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDes.resources
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDesImp.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDes.resources
+C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDesImp.resources

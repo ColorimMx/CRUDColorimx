@@ -29,6 +29,15 @@
                              subMClnPri2.btnimg10, subMClnPri2.fonImg, subMClnPri2.btnColor)
 
     End Sub
+    Sub SInventario()
+        Dim mInvt As New clsPnlFrm
+        mInvt.AbrirFormPanel(subMInvPro.menuSub, subMInvPro.btnTxt1, subMInvPro.btnTxt2,
+                             subMInvPro.btnTxt3, subMInvPro.btnTxt4, subMInvPro.btnTxt5, subMInvPro.btnTxt6,
+                             subMInvPro.btnTxt7, subMInvPro.btnTxt8, subMInvPro.btnTxt9, subMInvPro.btnTxt10, subMInvPro.btnimg1,
+                             subMInvPro.btnimg2, subMInvPro.btnimg3, subMInvPro.btnimg4, subMInvPro.btnimg5,
+                             subMInvPro.btnimg6, subMInvPro.btnimg7, subMInvPro.btnimg8, subMInvPro.btnimg9,
+                             subMInvPro.btnimg10, subMInvPro.fonImg, subMInvPro.btnColor)
+    End Sub
     Sub presupuesto()
 
         Dim FrmPres As New frmPreExp

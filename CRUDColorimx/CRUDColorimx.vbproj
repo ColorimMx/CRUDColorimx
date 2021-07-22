@@ -260,6 +260,7 @@
     </Compile>
     <Compile Include="SubMenu\Inventario\subInvAlm.vb" />
     <Compile Include="SubMenu\Inventario\subMInvDes.vb" />
+    <Compile Include="SubMenu\Inventario\subMInvPro.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Clientes\Comisiones\frmClnComFam.resx">

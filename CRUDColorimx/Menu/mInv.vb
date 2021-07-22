@@ -3,7 +3,7 @@ Imports System.Data.SqlClient
 Module mInv
     Public menuSub = "INVENTARIO"
 
-    Public btnTxt1 = "Inventario"
+    Public btnTxt1 = "Productos"
     Public btnTxt2 = "Inventario"
     Public btnTxt3 = "Inventario"
     Public btnTxt4 = "Producción"

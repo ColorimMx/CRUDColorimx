@@ -83,6 +83,10 @@ Public Class frmSubMenu
             Case ("DESPACHOS")
                 Dim expInvAlmDes As New frmInvAlmDes
                 expInvAlmDes.Show()
+                '+++++++++++++++++++++++++++++++++++PRODUCTOS+++++++++++++++++++++++++++++++++++
+            Case "INVENTARIO"
+                subMInvPro.conf()
+                btn1.SInventario()
         End Select
     End Sub
     Private Sub Button2_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button2.Click
@@ -203,7 +207,7 @@ Public Class frmSubMenu
                 btn6.SInventario()
         End Select
     End Sub
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button7.Click
         Dim frm = Me.Name
         Select Case frm
             '+++++++++++++++++++++++++++++++++++SUBMENU PRESUPUESTO+++++++++++++++++++++++++++++++++++
@@ -269,6 +273,9 @@ Public Class frmSubMenu
         Select Case frm
             Case "INVENTARIO"
                 closeapp()
+            Case "PRODUCTOS"
+                menus.Inventario()
+                mInv.conf()
             Case "ALMACENES"
                 menus.Inventario()
                 mInv.conf()
