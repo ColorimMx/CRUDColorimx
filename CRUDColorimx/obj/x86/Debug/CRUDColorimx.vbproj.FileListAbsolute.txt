@@ -42,3 +42,45 @@ C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\C
 C:\Users\Pablo Amador Solis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDesImp.resources
 C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDes.resources
 C:\Users\PabloAmadorSolis\Documents\Visual Studio 2010\Projects\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDesImp.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.AssemblyReference.cache
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmClnComFam.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmExcCliVtsZ.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmParCliVtsZ.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreApli.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreExp.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreRep.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreVer.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmPreApliVer.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDes.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmInvAlmDesImp.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.Login.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmMenu.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.Resources.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.frmSubMenu.resources
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.GenerateResource.cache
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.CoreCompileInputs.cache
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.exe
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.xml
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.pdb
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.exe.config
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.exe
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.pdb
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CRUDColorimx.xml
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\bin\Debug\stdole.dll
+C:\Users\Pablo Amador Solis\Visual Studio\CRUDColorimx\CRUDColorimx\obj\x86\Debug\CRUDColorimx.vbproj.CopyComplete
